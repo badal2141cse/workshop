@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="./contact2.css">
 </head>
 <body>
-    <form action="">
-        <a href="">Home</a>
-        <a href="">Contact</a>
-        <h1 >Contact me</h1>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="Name:"><br><br>
-        <label for="mail">Mail:</label><br>
-        <input type="email" id="mail" name="Mail:"><br><br>
-        <label for="message">Message:</label><br>
-        <textarea name="Message" id="message" rows="4" cols="30"></textarea><br><br>
-        <input type="submit" name="submit">
+    <header>
+         <a href="./portfolio.html" id="Home">Home</a><span> | </span>
+        <a href="./contact.html">Contact</a>
+    </header>
+    <div id="name">
+        <h1 >Contact Me</h1>
+    </div>
+    <div id="form">
+        <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="naam" name="Name:">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="Mail:">
+        <label for="message">Message:</label>
+        <textarea name="Message" id="message" rows="4" cols="30"></textarea>
+        <input type="submit" id="button" name="submit">
     </form>
-    <p>&copy; 2025 Badal Kumar.All rights reserved.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Badal Kumar.All rights reserved.</p>
+    </footer>
 </body>
 </html>
